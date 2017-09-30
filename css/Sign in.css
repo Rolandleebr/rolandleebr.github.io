@@ -1,0 +1,134 @@
+
+#st-panel-4{
+background-image: url("../assets/PNG/BG2 1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+overflow: scroll;
+}
+
+#st-panel-1::-webkit-scrollbar {
+    display: none;
+}
+
+
+
+.sign-intro {
+  width: 45%;
+  height: 15%;
+  position: relative;
+  top:8%;
+  left:10%;
+  padding-left: 2em;
+  border-left: solid 1px #E95452;
+}
+
+      .sign-intro h2{
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        color:#E95452;
+        font-family: "Agency FB";
+      }
+
+      .sign-intro p{
+        font-size: 1em;
+        padding: 0;
+        margin-top: 10px;
+        color:#333f57;
+
+      }
+
+
+      .container {
+          border-radius: 5px;
+          background-color: #f2f2f2;
+          padding: 20px;
+          width: 50%;
+          position: relative;
+          left: 10%;
+          top: 8%;
+      }
+@media screen and (max-width:420px) {
+
+        .container {
+
+            width: 90%;
+            position: relative;
+            left: 0%;
+            top: 0%;
+            height: 110%;
+        }
+        .sign-intro {
+      display: none;
+}
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #e95452;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 20%;
+    height: 52px;
+    font-size: 1.3em;
+}
+
+@media screen and (max-width:421px) {
+
+  input[type=submit] {
+      width: 60%;
+  }
+
+  .slogo {
+  display: none;
+
+  }
+}
+
+input[type=submit]:hover {
+    background-color: #A2D2C9;
+}
+
+label {
+  font-size: 18px;
+}
+
+.slogo {
+  width: 120px;
+  height: 120px;
+  background-image: url("../assets/PNG/logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+position: absolute;
+left: 82%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* end */

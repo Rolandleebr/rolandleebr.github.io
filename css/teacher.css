@@ -1,0 +1,390 @@
+#st-panel-2{
+background-image: url("../assets/PNG/BG2 1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+/* color: #A2D2C9 #E95452 #333f57  */
+
+.teachers-intro {
+  width: 35%;
+  height: 15%;
+  position: relative;
+  top:8%;
+  left:10%;
+  padding-left: 2em;
+  border-left: solid 1px #E95452;
+}
+
+      .teachers-intro h2{
+        font-size: 3em;
+        padding: 0;
+        margin: 0;
+        color:#E95452;
+        font-family: "Agency FB";
+      }
+
+      .teachers-intro p{
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        color:#333f57;
+
+      }
+
+
+.thumb-container {
+    width: 80%;
+    height: 60%;
+    margin: 0px;
+    overflow: visible;
+    position: absolute;
+    top:35%;
+    left:10%;
+}
+
+      [class*="thumb-unit"] {
+        width: 20%;
+        height: 100%;
+        position: relative;
+        float: left;
+        background-position: center;
+        background-size:contain;
+        background-repeat: no-repeat;
+        transition: 300ms ease-in-out;
+        cursor: pointer;
+        border-radius: 10px;
+
+      }
+[class*="thumb-unit"]:hover {
+
+  transform: scale(1.045);
+  transition:300ms ease-in-out;
+
+}
+
+
+
+      /* imgs */
+      .thumb-unit-1{
+      background-image: url("../assets/PNG/T1.png");
+      }
+      .thumb-unit-1:hover {
+      background-image: url("../assets/PNG/T1-2.png");
+      }
+
+      .thumb-unit-2{
+        background-image: url("../assets/PNG/T2.png");
+      }
+      .thumb-unit-2:hover {
+      background-image: url("../assets/PNG/T2-2.png");
+      }
+
+      .thumb-unit-3{
+        background-image: url("../assets/PNG/T1.png");
+      }
+      .thumb-unit-3:hover {
+      background-image: url("../assets/PNG/T1-2.png");
+      }
+      .thumb-unit-4{
+        background-image: url("../assets/PNG/T2.png");
+      }
+      .thumb-unit-4:hover {
+      background-image: url("../assets/PNG/T2-2.png");
+      }
+      .thumb-unit-5{
+        background-image: url("../assets/PNG/T1.png");
+      }
+      .thumb-unit-5:hover {
+      background-image: url("../assets/PNG/T1-2.png");
+      }
+
+
+
+
+      @media screen and (max-width:1280px) {
+
+        .thumb-container {
+          overflow-y: scroll;
+          position: absolute;
+          top:30%;
+          left:10%;
+          }
+          .thumb-container::-webkit-scrollbar {
+              display: none;
+          }
+
+        [class*="thumb-unit"] {
+          width: 24%;
+          height: 92%;
+      }
+        .teachers-intro {
+          width: 50%;}
+      }
+
+
+      @media screen and (max-width:960px) {
+
+        [class*="thumb-unit"] {
+          width: 33%;
+          height: 95%;
+      }
+        .teachers-intro {
+          width: 75%;}
+      }
+
+
+
+  @media screen and (max-width:600px) {
+        [class*="thumb-unit"] {
+          width: 50%;
+height: 90%;
+      }
+
+}
+
+
+@media screen and (max-width:420px) {
+
+  .thumb-container {
+      width: 96%;
+      height: 100%;
+    overflow-y: scroll;
+    position: absolute;
+    top:20%;
+    left:2%;
+    }
+  [class*="thumb-unit"] {
+    width: 50%;
+    height: 60%;
+  }
+
+  .teachers-intro p{
+  visibility: hidden;
+}
+  .teachers-intro {
+    width: 100%;
+    height: 10%;
+    position: relative;
+    top:0%;
+    left:5%;
+    padding-left: 2em;
+
+  }
+
+}
+
+
+#information{
+  width: 200px;
+  height: 200px;
+  background: lightblue;
+  position: fixed;
+  display: none;
+  transition: 300ms ease-in-out;
+}
+
+#overlay {
+    position: relative;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0%;
+    left: 0%;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+    overflow-y: scroll;
+    transition: 300ms ease-in-out;
+
+}
+#overlay p{
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  top: 13%;
+  left: 35%;
+  font-family: "avenir";
+}
+
+.teacher-image{
+  position: absolute;
+  left: 20%;
+  top: 10%;
+  height: 80%;
+  width: 60%;
+  display:block;
+  background: url("../assets/PNG/T1 more.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+}
+
+@media screen and (max-width:600px) {
+
+.teacher-image{
+background: url("../assets/PNG/T1Pmore.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+position: absolute;
+left: 5%;
+top: 0%;
+height: 200%;
+width: 90%;
+display:block;
+overflow: scroll;
+}
+
+#overlay p{
+  color: #fff;
+  font-size: 1.5em;
+  position: relative;
+  top: 5%;
+  left: 5%;
+  font-family: "avenir";
+}
+}
+
+
+
+/* search funtion */
+
+
+
+.search {
+  height: 46px;
+  width: 300px;
+  background-color: #fff;
+
+  position: absolute;
+  top:15%;
+  left: 70%;
+  border-radius: 20px;
+  box-shadow: 0px 5px 10px rgb(159, 159, 159);
+
+}
+.search p{
+  position: relative;
+  font-size: 1em;
+  left: 2em;
+}
+
+
+
+
+
+@media screen and (max-width:961px) {
+  .search {
+    height: 46px;
+    width: 300px;
+    background-color: #fff;
+    position: absolute;
+    top:20%;
+    left: 55%;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+  }
+
+}
+
+@media screen and (max-width:421px) {
+  .search {
+    width: 90%;
+    background-color: #fff;
+    position: absolute;
+    top:10%;
+    left: 5%;
+  }
+  .dropdown {
+    visibility: hidden;
+  }
+}
+
+
+
+
+  .dropdown {
+    position: absolute;
+    left: 12%;
+    top: 20%;
+  }
+
+
+
+
+
+.dropbtn {
+    background-color: #E95452;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.2);
+}
+
+
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 10px;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #A2D2C9;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*  end --------------------------------------------*/

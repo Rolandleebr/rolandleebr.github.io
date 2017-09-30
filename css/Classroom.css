@@ -1,0 +1,445 @@
+
+#st-panel-3{
+background-image: url("../assets/PNG/BG2 1.png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+
+
+/* color: #A2D2C9 #E95452 #333f57  */
+
+.class-intro {
+  width: 35%;
+  height: 8%;
+  position: relative;
+  top:8%;
+  left:5%;
+  padding-left: 2em;
+  border-left: solid 1px #E95452;
+}
+
+      .class-intro h2{
+        font-size: 2em;
+        padding: 0;
+        margin: 0;
+        color:#E95452;
+        font-family: "Agency FB";
+      }
+
+      .class-intro p{
+        font-size: 1em;
+        padding: 0;
+        margin: 0;
+        color:#333f57;
+      }
+
+  .file-share {
+        height: 80%;
+        width: 15%;
+        border-radius: 3px;
+        position: relative;
+        top: 10%;
+        left: 5%;
+        box-shadow: 0px 5px 10px rgb(168, 168, 168);
+        background: rgb(255, 255, 255);
+      }
+
+.file-share p {
+  text-align: center;
+  padding: 20px 0 20px 0;
+  margin: 0 15px 0px 15px;
+  color: #E95452;
+  font-size: 1.5em;
+  border-bottom: solid 1px rgb(210, 210, 210);
+  font-weight: bold;
+}
+
+
+
+
+.file-icons {
+padding-top: 40px;
+height: 66%;
+border-bottom: solid 1px rgb(210, 210, 210);
+}
+
+
+.icon {
+  width: 50%;
+  height: 7em;
+  display: block;
+  margin: 20px 0 20px 0;
+  position: relative;
+  left: 25%;
+  background-image: url("../assets/PNG/Word icon.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-bottom: 40px;
+  transition: 300ms ease-in-out;
+  border-radius: 5px;
+}
+
+.icon:hover{
+box-shadow: 0px 5px 10px rgb(168, 168, 168);
+background-color: #A2D2C9;
+cursor: pointer;
+transform: scale(1.025);
+transition: 300ms ease-in-out;
+}
+
+
+
+
+[class*="Cbutton"]{
+  width: 70%;
+  height: 40px;
+  position: absolute;
+  top:90%;
+  left: 15%;
+  text-align: center;
+  padding-top: 10px;
+  z-index: 10;
+  color: #fff;
+  font-size:1.3em;
+  margin: 10px 0 10px 0;
+  transition: 300ms ease-in-out;
+  border-radius: 3px;
+}
+
+[class*="Cbutton"]:hover {
+  transform: scale(1.045);
+  transition:300ms ease-in-out;
+  box-shadow: 0px 5px 10px rgb(168, 168, 168);
+cursor: pointer;
+}
+
+.red-Cbutton {
+  background:#E95452;
+  position: absolute;
+  top:82%;
+}
+
+.green-Cbutton {
+  background:#A2D2C9;
+}
+
+
+
+
+/* video box */
+
+
+.live-box {
+  width:56%;
+  height: 64%;
+  background-color: #333f57;
+  position: absolute;
+  top:18%;
+  left: 22%;
+  background-image: url("../assets/PNG/live box.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border-radius: 3px;
+}
+
+
+
+
+
+.live-infor {
+    width: 29%;
+    height: 8%;
+    padding-left: 2em;
+    border-left: solid 1px #333f57;
+  position: absolute;
+  top:83%;
+  left: 22%;
+padding-left: 1em;
+clear: both;
+
+}
+
+.live-infor  h1{
+  font-size: 2em;
+  padding: 0;
+  margin: 0;
+  color:#333f57;
+  font-family: "Agency FB";
+}
+.live-infor  p{
+  font-size: 1em;
+  padding: 0;
+  margin: 0;
+  color:#333f57;
+}
+.live-infor  h4{
+
+  padding: 0;
+  margin: 0;
+  color:#333f57;
+}
+
+
+@media screen and (max-width: 580px) {
+  .class-intro{
+    display: none;
+  }
+
+  .live-infor {
+      width: 80%;
+      height: 8%;
+      padding-left: 2em;
+      border-left: solid 1px #333f57;
+    position: absolute;
+    top:10%;
+    left: 5%;
+  padding-left: 1em;
+  clear: both;
+  }
+
+  .live-box {
+    width:90%;
+    height: 64%;
+    background-color: #333f57;
+    position: absolute;
+    top:18%;
+    left: 5%;
+
+  }
+
+}
+
+
+@media screen and (max-width: 420px) {
+  .file-share {display: none;}
+  .class-intro{
+    display: none;
+  }
+
+  .live-infor {
+z-index: 10;
+    position: absolute;
+    top:2%;
+    left: 5%;
+  }
+  .live-infor  h1{
+    font-size: 1.5em;
+    color:#fff;
+
+  }
+.live-infor  p{
+  display: none;
+}
+  .live-box {
+    width:100%;
+    height: 45%;
+    background-color: #333f57;
+    position: absolute;
+    top:0%;
+    left: 0%;
+
+  }
+
+
+}
+
+
+
+
+
+
+
+.schedule {
+  width: 15%;
+  height: 2em;
+  background-color: #333f57;
+position: absolute;
+top: 84%;
+left: 63%;
+color: #fff;
+text-align: center;
+padding-top: 1em;
+font-size: 1.2em;
+ transition: 300ms ease-in-out;
+ overflow: hidden;
+ border-radius: 3px;
+}
+
+.schedule:hover {
+  width: 25%;
+  height: 7em;
+ color: #e95452;
+ position: absolute;
+ top: 82%;
+ left: 53%;
+ transition: 300ms ease-in-out;
+ background-image:  ;
+ background-color: #fff;
+ overflow-y: scroll;
+ display: inline-block;
+}
+.book{
+  background-color: #e95452;
+  color: #fff;
+  padding: 0 10px 0 10px;
+  cursor: pointer;
+}
+.book:hover{
+  background-color: #A2D2C9;
+
+}
+
+
+.chat {
+      height: 80%;
+      width: 18%;
+      border-radius: 3px;
+      position: absolute;
+      top: 18%;
+      left: 80%;
+      box-shadow: 0px 5px 10px rgb(168, 168, 168);
+      background: rgb(255, 255, 255);
+    }
+
+
+.chat p {
+text-align: center;
+padding: 20px 0 20px 0;
+margin: 0 15px 0px 15px;
+color: #E95452;
+font-size: 1.5em;
+border-bottom: solid 1px rgb(210, 210, 210);
+font-weight: bold;
+
+}
+
+
+.enter{
+
+  height: 48px;
+  border: solid 1px rgb(161, 161, 161);
+  position: absolute;
+  top:82%;
+
+  padding-left: 3%;
+
+}
+
+
+.message{
+  text-align: center;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+#send  {
+  width: 45%;
+  height: 40px;
+position: relative;
+top:80%;
+left: 5%;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #e95452;
+  color: #fff;
+  font-size:1.3em;
+  margin: 10px 0 10px 0;
+  transition: 300ms ease-in-out;
+  border-radius: 3px;
+  display: block;
+}
+
+
+#submit {
+  width: 40%;
+  height: 40px;
+position: relative;
+top:71.75%;
+left: 55%;
+  text-align: center;
+  padding-top: 10px;
+  background-color: #a2d2c9;
+  color: #fff;
+  font-size:1.3em;
+  margin: 10px 0 10px 0;
+  transition: 300ms ease-in-out;
+  border-radius: 3px;
+
+}
+
+
+.Chatbt:hover {
+  transform: scale(1.045);
+  transition:300ms ease-in-out;
+  box-shadow: 0px 5px 10px rgb(168, 168, 168);
+  cursor: pointer;
+}
+.chattext {
+position: absolute;
+left: 5%;
+top: 10%;
+background-image: url("../assets/PNG/T ms .png");
+background-position: center;
+background-repeat: no-repeat;
+background-size: contain;
+border-radius: 3px;
+width: 90%;
+height: 30%;
+}
+
+@media screen and (max-width: 421px) {
+.chat p {
+  text-align: center;
+
+  margin: 0 15px 0px 15px;
+  color: #E95452;
+  font-size: 1em;
+  border-bottom: solid 1px rgb(210, 210, 210);
+
+}
+
+  .chat {
+        height: 80%;
+        width: 100%;
+        border-radius: 3px;
+        position: absolute;
+        top: 45%;
+        left: 0%;
+        box-shadow: 0px 5px 10px rgb(168, 168, 168);
+        background: rgb(255, 255, 255);
+        overflow: scroll;
+        }
+
+        #st-panel-1::-webkit-scrollbar {
+            display: none;
+      }
+
+      .chattext{
+        position: absolute;
+        left: 2%;
+        top: 20%;
+      }
+      .enter{
+
+
+        top:55%;
+
+        padding-left: 3%;
+
+      }
+
+}
+
+
+
+
+
+
+
+
+
+/* end */
